@@ -1,0 +1,129 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: cursive;
+}
+
+
+
+hr {
+    border-top: 1px solid #9999;
+    margin: 0px;
+    ;
+}
+
+#menu-title {
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    /*  border: 2px solid #3F0C1F;*/
+    overflow: visible;
+    background-color: #bbb;
+}
+
+.tile-title {
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.row {
+    margin: auto;
+}
+
+.menu-description {
+    color: #000;
+    padding: 15px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    font-size: 1.5em;
+}
+
+#header-nav {
+    background-color: #bbb;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 1px solid black;
+
+}
+
+.navbar-header button.navbar-toggle:hover {
+    color: greenyellow;
+
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+    background-color: #eee;
+}
+
+#nav-list a:hover {
+    color: white;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    #main-content {
+        width: auto;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #main-content {
+        width: auto;
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    #main-content {
+        width: auto;
+    }
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #main-content {
+        width: 90%;
+    }
+}
